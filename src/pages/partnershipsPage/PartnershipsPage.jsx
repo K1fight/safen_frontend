@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import partnerLogo from '../assets/people-illustration-group2.png'
+import Navbar from '../../components/Navbar.jsx'
+import Footer from '../../components/Footer.jsx'
+import partnerLogo from '../../assets/people-illustration-group2.png'
 import './PartnershipsPage.css'
 
 function PartnershipsPage() {

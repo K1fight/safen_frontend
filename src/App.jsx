@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import ParentsPage from './pages/ParentsPage'
-import ContactPage from './pages/ContactPage'
-import PartnershipsPage from './pages/PartnershipsPage'
+import HomePage from './pages/homepage/HomePage.jsx'
+import AboutPage from './pages/aboutPage/AboutPage.jsx'
+import ParentsPage from './pages/parentsPage/ParentsPage.jsx'
+import ContactPage from './pages/contactPage/ContactPage.jsx'
+import PartnershipsPage from './pages/partnershipsPage/PartnershipsPage.jsx'
 import './App.css'
 
 function App() {
