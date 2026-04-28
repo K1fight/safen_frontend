@@ -1,0 +1,489 @@
+/* ============================================
+   For Parents Page Styles
+   ============================================ */
+
+/* --- Eyebrow Banner --- */
+.parents-eyebrow {
+  background: #f5f5f5;
+  padding: 14px 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.parents-eyebrow p {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3.5px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+/* --- Hero Section --- */
+.parents-hero {
+  background: #e8f4f6;
+  padding: 60px 0 80px;
+}
+
+.parents-hero-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.parents-hero-img {
+  flex: 1.1;
+  min-width: 0;
+}
+
+.hero-photo-placeholder svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.parents-hero-text {
+  flex: 1;
+}
+
+.parents-hero-text h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+
+.parents-hero-text p {
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: #444;
+  margin-bottom: 28px;
+}
+
+.parents-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 36px;
+  background: var(--safen-blue);
+  color: #fff;
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  transition: all 0.3s var(--ease-out);
+  box-shadow: 0 4px 20px rgba(26, 122, 140, 0.25);
+}
+
+.parents-cta:hover {
+  background: var(--safen-blue-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(26, 122, 140, 0.35);
+}
+
+/* --- Parent Insight Package --- */
+.parents-package {
+  padding: 80px 0;
+}
+
+.parents-package-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.parents-package-inner > h2 {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #555;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.package-subtitle {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 52px;
+  line-height: 1.65;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  text-align: left;
+}
+
+.package-item {
+  padding: 24px 20px;
+}
+
+.package-icon {
+  height: 80px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.package-icon svg {
+  width: 80px;
+  height: auto;
+}
+
+.package-item h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.package-item p {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #666;
+}
+
+/* --- Why SAFEN Matters --- */
+.parents-why {
+  padding: 0 0 80px;
+}
+
+.parents-why-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.why-text {
+  flex: 1;
+}
+
+.why-label {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.why-text h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 22px;
+  line-height: 1.2;
+}
+
+.why-list {
+  list-style: none;
+  padding: 0;
+}
+
+.why-list li {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #444;
+  padding: 6px 0 6px 22px;
+  position: relative;
+}
+
+.why-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 16px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--safen-blue);
+  opacity: 0.6;
+}
+
+.why-illustration {
+  flex: 1;
+  min-width: 0;
+}
+
+.why-illustration svg {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+
+/* --- Summary Uses --- */
+.parents-uses {
+  padding: 0 0 80px;
+}
+
+.parents-uses-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.parents-uses-inner > h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+
+.uses-subtitle {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #666;
+  max-width: 720px;
+  margin: 0 auto 48px;
+}
+
+.uses-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 40px;
+  text-align: left;
+}
+
+.use-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.use-icon {
+  flex-shrink: 0;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.use-card p {
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: #555;
+}
+
+/* --- Contact / Book a Conversation --- */
+.parents-contact {
+  padding: 0 0 80px;
+}
+
+.parents-contact-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.contact-left {
+  flex: 1;
+  max-width: 480px;
+}
+
+.contact-left h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(24px, 2.8vw, 34px);
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.contact-left > p {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.contact-ill svg {
+  width: 220px;
+  height: auto;
+  display: block;
+}
+
+.contact-form-wrapper {
+  flex: 1.2;
+  min-width: 0;
+}
+
+.contact-form {
+  background: #e8f4f6;
+  border-radius: 16px;
+  padding: 36px 32px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #d0e0e4;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: var(--font-body);
+  color: #333;
+  background: #fff;
+  transition: border-color 0.2s ease;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--safen-blue);
+  box-shadow: 0 0 0 3px rgba(26, 122, 140, 0.1);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #aaa;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.form-disclaimer {
+  font-size: 11.5px;
+  color: #999;
+  line-height: 1.55;
+  margin: 4px 0 18px !important;
+}
+
+.contact-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 14px;
+  background: #d45a6a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  transition: all 0.3s var(--ease-out);
+  cursor: pointer;
+}
+
+.contact-submit:hover {
+  background: #c04a5a;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(212, 90, 106, 0.3);
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+
+@media (max-width: 960px) {
+  .parents-hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .package-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .parents-why-inner {
+    flex-direction: column-reverse;
+    gap: 36px;
+  }
+
+  .why-illustration svg {
+    margin: 0 auto;
+  }
+
+  .uses-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .parents-contact-inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .contact-ill svg {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .parents-hero {
+    padding: 40px 0 56px;
+  }
+
+  .parents-package,
+  .parents-why,
+  .parents-uses,
+  .parents-contact {
+    padding-bottom: 56px;
+  }
+
+  .parents-hero-inner,
+  .parents-package-inner,
+  .parents-why-inner,
+  .parents-uses-inner,
+  .parents-contact-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .package-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .uses-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,338 @@
+/* ============================================
+   About / Who We Are Page Styles
+   ============================================ */
+
+/* --- Hero Section: Meet Us --- */
+.about-hero {
+  background: #e8f4f6;
+  padding: 60px 0 80px;
+}
+
+.about-hero-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-hero-text {
+  flex: 1;
+  max-width: 480px;
+}
+
+.about-hero-text h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(36px, 5vw, 56px);
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  line-height: 1.15;
+}
+
+.about-hero-text p {
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.about-hero-ill {
+  flex: 1;
+  max-width: 420px;
+}
+
+.about-hero-ill svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --- Three Pillars --- */
+.about-pillars {
+  padding: 80px 0;
+}
+
+.about-pillars-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.pillar-card {
+  text-align: center;
+  padding: 32px 24px;
+}
+
+.pillar-icon {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pillar-card h3 {
+  font-family: var(--font-body);
+  font-size: 19px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.pillar-card p {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #666;
+}
+
+/* --- Feature Block: FEN Emotions Matter --- */
+.about-feature {
+  padding: 0 0 80px;
+}
+
+.about-feature-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  background: #e8f4f6;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.feature-image {
+  flex: 1.1;
+  min-width: 0;
+}
+
+.feature-photo-placeholder svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.feature-content {
+  flex: 1;
+  padding: 40px 36px 40px 0;
+}
+
+.feature-content h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(26px, 3vw, 34px);
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+.feature-content p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #444;
+}
+
+/* --- Values + Illustration --- */
+.about-values {
+  padding: 0 0 80px;
+}
+
+.about-values-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.values-list {
+  flex: 1;
+  max-width: 400px;
+}
+
+.value-item {
+  margin-bottom: 32px;
+}
+
+.value-item:last-child {
+  margin-bottom: 0;
+}
+
+.value-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.value-item p {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #666;
+}
+
+.values-illustration {
+  flex: 1.2;
+  min-width: 0;
+}
+
+.values-illustration svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --- Founder Section --- */
+.about-founder {
+  padding: 0 0 80px;
+}
+
+.about-founder-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.about-founder-inner > h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 800;
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 48px;
+}
+
+.founder-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.founder-avatar {
+  flex-shrink: 0;
+  width: 160px;
+}
+
+.founder-avatar svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.founder-info {
+  flex: 1;
+}
+
+.founder-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.founder-title {
+  font-size: 14px;
+  color: var(--safen-blue);
+  font-weight: 600;
+  margin-bottom: 18px !important;
+}
+
+.founder-info blockquote {
+  font-size: 15.5px;
+  font-style: italic;
+  color: #555;
+  border-left: 3px solid var(--safen-blue);
+  padding-left: 18px;
+  margin: 0 0 20px;
+  line-height: 1.65;
+}
+
+.founder-bio {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #555;
+  margin: 0 !important;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+
+@media (max-width: 900px) {
+  .about-hero-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 36px;
+  }
+
+  .about-hero-text {
+    max-width: 100%;
+  }
+
+  .about-hero-ill {
+    max-width: 300px;
+  }
+
+  .about-pillars-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-feature-inner {
+    flex-direction: column;
+  }
+
+  .feature-content {
+    padding: 32px 24px;
+  }
+
+  .about-values-inner {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .values-list {
+    max-width: 100%;
+  }
+
+  .founder-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .founder-info blockquote {
+    border-left: none;
+    border-top: 3px solid var(--safen-blue);
+    padding-left: 0;
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    padding: 40px 0 56px;
+  }
+
+  .about-pillars,
+  .about-feature,
+  .about-values,
+  .about-founder {
+    padding-bottom: 56px;
+  }
+
+  .about-hero-inner,
+  .about-pillars-inner,
+  .about-feature-inner,
+  .about-values-inner,
+  .about-founder-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,41 @@
+/* ============================================
+   People Illustration Banner Styles
+   ============================================ */
+
+.people-illustration {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Subtle animation on load */
+  animation: illustrationFadeIn 1s var(--ease-out) both;
+}
+
+/* Staggered entrance for each group */
+.ill-group {
+  opacity: 0;
+  animation: groupSlideIn 0.8s var(--ease-out) both;
+}
+
+.ill-group-1 { animation-delay: 0.05s; }
+.ill-group-2 { animation-delay: 0.15s; }
+.ill-group-3 { animation-delay: 0.25s; }
+.ill-group-4 { animation-delay: 0.35s; }
+
+@keyframes illustrationFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes groupSlideIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .people-illustration {
+    /* Scale down gracefully on mobile */
+    min-width: 600px;
+    max-width: none;
+  }
+}
